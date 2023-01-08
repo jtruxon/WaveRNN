@@ -1,6 +1,7 @@
 import math
 import numpy as np
-import librosa, soundfile
+import librosa
+import soundfile
 from utils import hparams as hp
 from scipy.signal import lfilter
 
