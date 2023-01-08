@@ -1,0 +1,4 @@
+docker run -it -v ${PWD}:/app seannaren/deepspeech.pytorch:latest /bin/bash
+cd && git clone https://github.com/jtruxon/WaveRNN.git
+pip install --trusted-host pypi.org --trusted-host developer.download.nvidia.com -r requirements.txt
+#cd && git clone https://github.com/jtruxon/WaveRNN.git
